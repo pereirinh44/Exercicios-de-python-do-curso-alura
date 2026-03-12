@@ -27,14 +27,14 @@ user = input("enter a username: ")
 password = input("enter a password with five digits: ")
 
 if user == "Pereira" and password != "12345":
-    print("User correct but pass incorrect!")
+    print("User correct but password incorrect!")
 elif user != "Pereira" and password == "12345":
-    print("User incorrect but pass correct")
+    print("User incorrect but password correct")
 elif user != "Pereira" and password != "12345":
-    print("username and pass are incorrect")
+    print("username and password are incorrect")
 else:
     print(f"open")
-print(f"Username {user} pass {password}")
+print(f"Username {user} password {password}")
 
 
 
